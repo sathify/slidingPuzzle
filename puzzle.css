@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font: 14px/20px "Helvetica Neue", Arial, sans-serif;
+    color: #666;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* satheesh */
+
+h1 {
+    color: #666;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    padding: 35px;
+
+}
+
+.container{
+	margin: 0 auto;
+	width: 457px;
+	height: 457px;
+	background: #E0E0E0;
+	border: 4px solid #666;
+	border-radius: 2px;
+	padding: 1px 0 0 1px;
+	position: relative;
+	cursor: pointer;
+}
+
+.tile {
+	width: 112px;
+	height: 112px;
+	margin: 1px;
+	position: absolute;
+}
+
+.empty {
+	width: 112px;
+	height: 112px;
+	margin: 1px;
+	position:absolute;
+	top: 343px;
+	left: 343px;
+	background: none;
+}
+
+
+/* background url and positions */
+.one {
+	top:1px;
+	left:1px;
+	background-position: 0 0;
+}
+
+.two {
+	top:1px;
+	left:115px;
+	background-position: 343px 0;
+}
+
+.three {
+	top:1px;
+	left:229px;
+	background-position: 229px 0;
+}
+
+.four {
+	top:1px;
+	left: 343px;
+	background-position: 115px 0;
+}
+
+.five {
+	top:115px;
+	left:1px;
+	background-position: 0 343px;
+}
+
+.six {
+	top:115px;
+	left:115px;
+	background-position: 343px 343px;
+}
+
+.seven {
+	top:115px;
+	left:229px;
+	background-position: 229px 343px;
+}
+
+.eight {
+	top:115px;
+	left: 343px;
+	background-position: 115px 343px;
+}
+
+.nine {
+	top:229px;
+	left:1px;
+	background-position: 0 229px;
+}
+
+.ten {
+	top:229px;
+	left:115px;
+	background-position:  343px 229px;
+}
+
+.eleven {
+	top:229px;
+	left:229px;
+	background-position:  229px 229px;
+}
+
+.twelve {
+	top: 229px;
+	left: 343px;
+	background-position:  115px 229px;
+}
+
+.thirteen {
+	top:343px;
+	left:1px;
+	background-position:  0 115px;
+}
+
+.fourteen {
+	top:343px;
+	left:115px;
+	background-position:  343px 115px;
+}
+
+.fifteen {
+	top:343px;
+	left:229px;
+	background-position:  229px 115px;
+}
+
+/*sprites*/
+.tile {
+	background-image: url(puppies.png);
+}
+
+.tile:hover {
+	box-shadow: 0 5px 5px #888;
+}
+
+/*options*/
+
+.options{
+	margin: 0 auto;
+	width: 457px;
+	height: 457px;
+	padding: 50px;
+}
+
+#submit {
+    background: #5DBD57;
+    color: #fff;
+    width: 212px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+	padding: 5px;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+#submit:hover{
+	box-shadow: 0 2px 5px #888;
+}
+
+label {
+    display: inline-block;
+    padding-left: 100px;
+    font-size: 22px;
+}
+
+
+
+
+
